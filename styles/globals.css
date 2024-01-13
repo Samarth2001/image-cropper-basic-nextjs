@@ -25,3 +25,11 @@ body {
     )
     rgb(var(--background-start-rgb));
 }
+
+.cropped-images img {
+  margin: 10px;
+  border: 1px solid #ddd;
+  padding: 5px;
+  width: auto; /* Instead of a fixed width */
+  height: auto; /* Instead of a fixed height */
+}
